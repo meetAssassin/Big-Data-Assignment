@@ -1,0 +1,54 @@
+# Environment variables
+.env
+*.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Data directories
+data_raw/
+data_processed/
+deployment/postgres_data/
+deployment/clickhouse_data/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials and secrets
+secrets/
+credentials/
+*.pem
+*.key
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
