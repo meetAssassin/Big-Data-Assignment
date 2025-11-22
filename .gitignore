@@ -27,9 +27,9 @@ ENV/
 *.sqlite
 *.sqlite3
 
-# Data directories
-data_raw/
-data_processed/
+# Data directories (keeping data_raw and data_processed for evaluators)
+# data_raw/  # Uncomment to exclude
+# data_processed/  # Uncomment to exclude
 deployment/postgres_data/
 deployment/clickhouse_data/
 
